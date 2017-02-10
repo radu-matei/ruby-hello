@@ -1,4 +1,4 @@
-FROM ruby:2.2.0
+FROM ruby:latest
 RUN mkdir /app
 WORKDIR /app
 ADD . /app
